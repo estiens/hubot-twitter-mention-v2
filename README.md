@@ -1,6 +1,6 @@
 # hubot-twitter-mentionv2
 
-A hubot script that continually searches twitter for a keyword you specify
+A hubot script that continually searches twitter for a keyword you specify.
 
 See [`src/twitter-mentionv2.coffee`](src/twitter-mentionv2.coffee) for full documentation.
 
@@ -16,9 +16,3 @@ Then add **hubot-twitter-mentionv2** to your `external-scripts.json`:
 ["hubot-twitter-mentionv2"]
 ```
 
-## Sample Interaction
-
-```
-user1>> hubot hello
-hubot>> hello!
-```
