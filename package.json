@@ -1,13 +1,15 @@
 {
-  "name": "hubot-twitter-mentionv2",
+  "name": "hubot-twitter-search",
   "description": "A hubot script that continually searches twitter for a keyword you specify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "eric@softwareforgood.com",
   "license": "GPL v2",
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "twitter"
+    "twitter",
+    "search",
+    "twitter search"
   ],
   "repository": {
     "type": "git",
