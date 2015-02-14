@@ -1,9 +1,9 @@
 {
   "name": "hubot-twitter-mentionv2",
   "description": "A hubot script that continually searches twitter for a keyword you specify",
-  "version": "0.0.0",
-  "author": "Eric Stiens <estiens@gmail.com>",
-  "license": "MIT",
+  "version": "1.0.0",
+  "author": "eric@softwareforgood.com",
+  "license": "GPL v2",
   "keywords": [
     "hubot",
     "hubot-scripts",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-twitter-mentionv2.git"
+    "url": "https://github.com/estiens/hubot-twitter-mention-v2"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-twitter-mentionv2/issues"
+    "url": "https://github.com/hubot-scripts/hubot-twitter-mention-v2/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",
