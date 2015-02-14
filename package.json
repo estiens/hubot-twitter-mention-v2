@@ -1,0 +1,37 @@
+{
+  "name": "hubot-twitter-mentionv2",
+  "description": "A hubot script that continually searches twitter for a keyword you specify",
+  "version": "0.0.0",
+  "author": "Eric Stiens <estiens@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "twitter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-twitter-mentionv2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-twitter-mentionv2/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "twit": "^1.1.20"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "<2",
+    "sinon-chai": "^2.6.0",
+    "sinon": "1.7.0",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
