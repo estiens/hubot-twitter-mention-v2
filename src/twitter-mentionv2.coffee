@@ -8,7 +8,7 @@
 # Configuration:
 #   HUBOT_TWITTER_CONSUMER_KEY
 #   HUBOT_TWITTER_CONSUMER_SECRET
-#   HUBOT_TWITTER_ACCESS_TOKEN
+#   HUBOT_TWITTER_ACCESS_TOKEN_KEY
 #   HUBOT_TWITTER_ACCESS_TOKEN_SECRET
 #   HUBOT_TWITTER_MENTION_QUERY
 #   HUBOT_TWITTER_MENTION_ROOM
@@ -40,7 +40,7 @@ module.exports = (robot) ->
     doAutomaticSearch(robot)
 
   doAutomaticSearch = (robot) ->
-    query = process.env.HUBOT_TWITTER_QUERY
+    query = process.env.HUBOT_TWITTER_MENTION_QUERY
     since_id = robot.brain.data.last_tweet
     count = MAX_TWEETS
 
