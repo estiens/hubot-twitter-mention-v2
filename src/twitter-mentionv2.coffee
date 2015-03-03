@@ -27,7 +27,7 @@ MAX_TWEETS = 5
 config =
   consumer_key: process.env.HUBOT_TWITTER_CONSUMER_KEY
   consumer_secret: process.env.HUBOT_TWITTER_CONSUMER_SECRET
-  access_token: process.env.HUBOT_TWITTER_ACCESS_TOKEN_KEY
+  access_token: process.env.HUBOT_TWITTER_ACCESS_TOKEN
   access_token_secret: process.env.HUBOT_TWITTER_ACCESS_TOKEN_SECRET
 
 getTwit = ->
@@ -40,7 +40,7 @@ module.exports = (robot) ->
     doAutomaticSearch(robot)
 
   doAutomaticSearch = (robot) ->
-    query = process.env.HUBOT_TWITTER_QUERY
+    query = process.env.HUBOT_TWITTER_MENTION_QUERY
     since_id = robot.brain.data.last_tweet
     count = MAX_TWEETS
 
