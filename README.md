@@ -8,11 +8,11 @@ See [`src/twitter-mentionv2.coffee`](src/twitter-mentionv2.coffee) for full docu
 
 In hubot project repo, run:
 
-`npm install hubot-twitter-mentionv2 --save`
+`npm install hubot-twitter-search --save`
 
-Then add **hubot-twitter-mentionv2** to your `external-scripts.json`:
+Then add **hubot-twitter-search** to your `external-scripts.json`:
 
 ```json
-["hubot-twitter-mentionv2"]
+["hubot-twitter-search"]
 ```
 

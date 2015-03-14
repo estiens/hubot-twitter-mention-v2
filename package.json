@@ -1,7 +1,7 @@
 {
   "name": "hubot-twitter-search",
   "description": "A hubot script that continually searches twitter for a keyword you specify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "eric@softwareforgood.com",
   "license": "GPL v2",
   "keywords": [
